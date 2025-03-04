@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "equipmentNo": "ME1",
+    "tagId": "LC01002",
+    "description": "M/E1 Power"
+  },
+  {
+    "id": 2,
+    "equipmentNo": "ME1",
+    "tagId": "LC01003",
+    "description": "M/E1 Load"
+  },
+  {
+    "id": 3,
+    "equipmentNo": "ME1",
+    "tagId": "LC01004",
+    "description": "M/E1 Speed"
+  },
+  {
+    "id": 4,
+    "equipmentNo": "ME1",
+    "tagId": "LC01007",
+    "description": "M/E1 L.O Inlet Press"
+  },
+  {
+    "id": 5,
+    "equipmentNo": "ME1",
+    "tagId": "LC01008",
+    "description": "M/E1 L.O Inlet Temp"
+  },
+  {
+    "id": 6,
+    "equipmentNo": "ME1",
+    "tagId": "LC01009",
+    "description": "M/E1 T/C1 Speed"
+  },
+  {
+    "id": 7,
+    "equipmentNo": "ME1",
+    "tagId": "LC01010",
+    "description": "M/E1 T/C1 Exh.gas Inlet Temp"
+  },
+  {
+    "id": 10,
+    "equipmentNo": "ME1",
+    "tagId": "LC01011",
+    "description": "M/E1 T/C1 Exh.gas Inlet Temp"
+  },
+  {
+    "id": 9,
+    "equipmentNo": "ME1",
+    "tagId": "LC01012",
+    "description": "M/E1 T/C1 Exh.gas Temp Diff"
+  },
+  {
+    "id": 10,
+    "equipmentNo": "ME1",
+    "tagId": "LC01013",
+    "description": "M/E1 T/C1 Press Air CLR Outlet"
+  }
+]

@@ -1,0 +1,5 @@
+VITE_APP_API_URL=http://192.168.40.158:5050/api
+VITE_WEATHER_API_URL=http:///192.168.40.158:8080/emapMin/
+VITE_TILE_MAP_URL=http://192.168.40.158:8080/TileMap
+VITE_GEOSERVER_WMS_URL=http://192.168.40.158:8089/geoserver/wms
+VITE_AIS_DATA_URL=http://navioncorp.asuscomm.com:58000/data

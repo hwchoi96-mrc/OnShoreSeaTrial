@@ -1,0 +1,28 @@
+[
+  {
+    "id": 2,
+    "sailing": 72,
+    "distance": 19547,
+    "speed": 11,
+    "mdo": 137,
+    "hfo": 642.3,
+    "totalco2": 2439,
+    "requiredCll": 7.6,
+    "attainedCll": 6.7,
+    "cllRating": 86,
+    "cllGrade": "C"
+  },
+  {
+    "id": 1,
+    "sailing": 30,
+    "distance": 8445,
+    "speed": 9.5,
+    "mdo": 60,
+    "hfo": 224,
+    "totalco2": 1020,
+    "requiredCll": 6,
+    "attainedCll": 5,
+    "cllRating": 70,
+    "cllGrade": "B"
+  }
+]

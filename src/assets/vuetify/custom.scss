@@ -1,0 +1,569 @@
+@use 'variable.scss' as v;
+
+/**
+* 레이아웃 
+*/
+.v-card.cardContainer {
+  padding: 4px;
+}
+
+.content-title {
+  font-size: 1.2em;
+}
+
+.gray-border {
+  border: 1px solid #4d4d4d;
+}
+
+@media (max-height: 800px) {
+  .title-container {
+    overflow-y: auto;
+  }
+
+  .tab-card {
+    overflow-y: auto;
+  }
+
+  .cctvlist-grid {
+    overflow-y: auto;
+  }
+}
+
+// 스크롤바
+::-webkit-scrollbar {
+  width: 5px !important;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5c5c5c !important;
+  border-radius: 2px !important;
+}
+
+.cii-slider .v-slider-thumb {
+  color: #5789fe !important;
+}
+
+.pointer-cursor {
+  cursor: default;
+}
+
+input[type='date'] {
+  cursor: cursor;
+}
+
+input[type='date']::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+}
+
+.shipSummary {
+  background-image: url('../images/black-shape-background.png');
+  background-position: 87% 64%;
+  border-radius: 5px;
+}
+
+.v-data-table .v-data-table__wrapper::-webkit-scrollbar {
+  width: 5px !important;
+}
+
+.v-data-table .v-data-table__wrapper::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+.v-data-table .v-data-table__wrapper::-webkit-scrollbar-thumb {
+  background: #5c5c5c !important;
+  border-radius: 2px !important;
+}
+
+.area-container {
+  background: #3c3c3f;
+  padding: 4px;
+  border-radius: 5px !important;
+  border: 0.5px solid #ffffff1f;
+}
+
+.area-container.content {
+  background: #2b2b2d;
+}
+
+#cii-rating-grid {
+  height: calc(100% - 44px - 32px);
+}
+
+#cii-simulator-grid {
+  height: calc(100% - 44px - 32px);
+}
+
+.ellipsis.ship-name {
+  cursor: pointer;
+}
+
+.voyage-history-table .v-table__wrapper .v-data-table-header__content {
+  text-align: center;
+}
+
+// .voyage-history-table {
+//   > .v-table__wrapper {
+//     thead {
+//       background-color: #2f2f32;
+//     }
+//     > tr:nth-child(odd) {
+//       background-color: #222224;
+//     }
+//   }
+// }
+
+// .voyage-history-table .v-table__wrapper thead tr {
+//   background-color: #2f2f32;
+// }
+// .voyage-history-table .v-table__wrapper tbody tr:nth-child(odd) {
+//   background-color: #222224;
+// }
+/*
+* 페이지 높이
+*/
+
+.container-height {
+  height: 100vh;
+  max-height: calc(100vh - #{v.$appBarHeight});
+}
+
+.container-height1 {
+  height: 100vh;
+  max-height: calc(100vh - (#{v.$appBarHeight} + 60px + (#{v.$paddingHeight} * 2) + 55px));
+}
+
+.container-include-filter {
+  height: 100vh;
+  max-height: calc(
+    100vh -
+      (#{v.$appBarHeight} + #{v.$serchHeight} + #{v.$marginHeight} + (#{v.$paddingHeight} * 3))
+  );
+}
+
+.v-tooltip {
+  &.tooltip-text2 {
+    > .v-overlay__content {
+      background-color: #434348; /* 원하는 배경 색상으로 변경 */
+      color: #fff; /* 텍스트 색상도 필요에 따라 변경 */
+    }
+  }
+}
+
+// 사용자 그룹 관리
+.management-container {
+  height: 100vh;
+  max-height: calc(100vh - (#{v.$appBarHeight} + 72px + 80px));
+}
+
+// 사용자 접속 기록
+.accesslog-container {
+  height: 100vh;
+  max-height: calc(
+    100vh -
+      (#{v.$appBarHeight} + #{v.$serchHeight} + #{v.$filterHeight} + (#{v.$paddingHeight} * 3))
+  );
+}
+
+/*
+* 선사 정보 관리
+*/
+.tab-container {
+  height: 100vh;
+  max-height: calc(
+    100vh -
+      (
+        #{v.$appBarHeight} + #{v.$tabTitleHeight} + #{v.$marginHeight} + (#{v.$paddingHeight} * 6) +
+          (#{v.$dxGridHeaderHeight}) + (#{v.$colPaddingHeight} * 2)
+      )
+  );
+}
+
+.tab-container2 {
+  height: 100vh;
+  max-height: calc(
+    100vh -
+      (#{v.$appBarHeight} + #{v.$tabTitleHeight} + #{v.$marginHeight} + (#{v.$paddingHeight} * 6))
+  );
+}
+
+.chart-container {
+  height: calc(100% - 52px);
+}
+
+.v-window.ins-cctv-tab-container .v-window__container {
+  flex: 1 1 auto;
+}
+
+.cii-chart {
+  height: 45%;
+}
+
+// 팝업 줄 높이
+.popupLineHeight {
+  line-height: 1.8;
+}
+
+.filter-area {
+  height: 44px;
+}
+
+.v-responsive.v-img.ecdis-image .v-img__img--contain {
+  object-fit: fill;
+}
+
+.v-responsive.v-img.radar-image .v-img__img--contain {
+  object-fit: fill;
+}
+// .v-responsive.v-img.ship-iso .v-img__img.v-img__img--contain {
+//   height: 95%;
+// }
+
+.v-responsive.v-img.ship-side .v-img__img.v-img__img--contain {
+  height: 100%;
+}
+
+.v-window.shiptype-tab-container .v-window__container {
+  height: 100%;
+  // .ship-iso {
+  //   > img {
+  //     width: min-content !important;
+  //     top: inherit;
+  //     left: inherit;
+  //   }
+  // }
+}
+
+@media (min-height: 700px) {
+  .cii-container {
+    // height: calc(100vh - (#{v.$appBarHeight} + #{$shipFilterHeight} - (#{v.$paddingHeight} * 4) - #{v.$marginHeight}));
+    height: calc(100vh - 65px - 32px);
+    // background-color: blue;
+  }
+
+  .cii-tab-container {
+    // height: calc(100% - #{v.$tabTitleHeight});
+  }
+}
+
+@media (max-height: 860px) {
+  .tab-container {
+    max-height: 100vh;
+    /* height: 100% !important; */
+    /* height: calc(100% + 80px) !important;
+    max-height: calc(100% + 80px) !important;
+     */
+  }
+}
+
+.engine-monitoring-page {
+  .real-time-container {
+    .unit {
+      color: #bababa;
+      font-weight: 100;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+/**
+* 헤더
+*/
+// .header .selectBox {
+//   min-width: 195px;
+// }
+
+.operation-info .v-card-title + .v-card-text,
+.v-card-title + .v-card-actions {
+  padding-top: inherit;
+}
+
+/**
+* 로그인 - 아이디 찾기 
+*/
+.idFindModal-subTitle {
+  font-size: 1rem;
+}
+
+.idFindModal-info {
+  padding: 20px;
+  background-color: #121111;
+  color: white;
+}
+
+.inFindModal-infoText {
+  color: #b8b8b8;
+}
+
+/**
+* 계정 정보
+*/
+.accountInfo > .v-card {
+  height: calc(100% - 48px);
+}
+
+.v-table.accountInfo {
+  th {
+    &:first-child {
+      border-right: 1px solid #49494e;
+      width: 20%;
+    }
+  }
+}
+
+.roleName {
+  font-size: 0.9em;
+}
+
+/**
+* 선사 관리자 목록
+*/
+
+.management-page {
+  .v-table {
+    td {
+      &.username {
+        width: 85%;
+        font-size: 0.9rem;
+      }
+
+      &.activate-status {
+        width: 5%;
+      }
+
+      &.modify-btn {
+        width: 5%;
+      }
+
+      &.president-btn {
+        width: 5%;
+      }
+    }
+  }
+}
+
+/**
+* 사용자 접속 기록
+*/
+
+.accessLog_title {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+/*
+* 소속된 그룹 / 선단 표시
+*/
+.groupName {
+  /* background: #4E83FF; */
+  border-radius: 10px;
+  padding: 2px 4px;
+}
+
+.groupName.primary {
+  background: #4e83ff;
+}
+
+.groupName.gray {
+  background: #959595;
+  border-radius: 10px;
+  padding: 2px 4px;
+}
+
+/*
+* Voyage List
+*/
+
+.voyage-route {
+  .v-img__img--contain {
+    object-fit: fill;
+  }
+}
+
+#report .v-table__wrapper thead th {
+  background-color: #6e6e78;
+  color: #2c2c37;
+}
+
+/**
+*
+* 알람 정보
+*/
+.normal {
+  color: #13d254;
+  border-color: #13d254;
+  //  color: #42d2a7;
+  // border-color: #42d2a7;
+}
+
+.caution {
+  // color: #FD8100
+  color: #fff900;
+}
+
+.warning {
+  // color: #F04A4A;
+  // border-color: #F04A4A;
+  color: #ff0000;
+  border-color: #ff0000;
+}
+
+.v-table--density-default.cii-table > .v-table__wrapper > table > tbody > tr > td {
+  padding: 0 0.75rem !important;
+}
+
+// .v-table--density-default.cii-table > .v-table__wrapper > table > tbody > tr > td,
+// .v-table--density-default > .v-table__wrapper > table > thead > tr > td,
+// .v-table--density-default > .v-table__wrapper > table > tfoot > tr > td {
+//   height: 33px ;
+// }
+
+.gradeA {
+  color: #8ce816;
+}
+
+.gradeB {
+  color: #42d2a7;
+}
+
+.gradeC {
+  color: #febd19;
+}
+
+.gradeD {
+  color: #f68822;
+}
+
+.gradeE {
+  color: #f04a4a;
+}
+
+.grade-a {
+  background-color: #8ce816;
+}
+
+.grade-b {
+  background-color: #42d2a7;
+}
+
+.grade-c {
+  background-color: #febd19;
+}
+
+.grade-d {
+  background-color: #f68822;
+}
+
+.grade-e {
+  background-color: #f04a4a;
+}
+
+.grade-icon {
+  color: '#fff';
+  padding: 1px 5px;
+  border-radius: 5px;
+}
+
+/**
+*
+화재 센서 
+
+*/
+.image-container img.v-img__img--contain {
+  object-fit: fill;
+}
+
+.image-container.radar img.v-img__img--contain {
+  object-fit: contain;
+  background: #010f02;
+}
+
+/**
+*
+**/
+.tagList .v-select {
+  max-width: 270px;
+}
+
+.deck-image {
+  .v-img__img--contain {
+    object-fit: fill;
+  }
+
+  &.v-responsive.v-img {
+    height: calc(100% - 12px);
+  }
+}
+
+/**
+* 캐로셀 이전 버튼 
+*/
+button.v-btn.v-btn--elevated.v-btn--icon.v-theme--customBlackTheme.v-btn--density-default.v-btn--size-default.v-btn--variant-elevated.v-window__left {
+  background: transparent;
+}
+
+button.v-btn.v-btn--elevated.v-btn--icon.v-theme--customBlackTheme.v-btn--density-default.v-btn--size-default.v-btn--variant-elevated.v-window__left:hover {
+  background: #000000cf;
+}
+
+/**
+* 캐로셀 다음 버튼 
+*/
+button.v-btn.v-btn--elevated.v-btn--icon.v-theme--customBlackTheme.v-btn--density-default.v-btn--size-default.v-btn--variant-elevated.v-window__right {
+  background: transparent;
+}
+
+button.v-btn.v-btn--elevated.v-btn--icon.v-theme--customBlackTheme.v-btn--density-default.v-btn--size-default.v-btn--variant-elevated.v-window__right:hover {
+  background: #000000cf;
+}
+
+/**
+* 월드맵
+*/
+.progressBar.remain .v-slider-thumb__surface::after {
+  content: '' !important;
+  width: 30px;
+  height: 15px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(10%, -50%);
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAyCAYAAACqNX6+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAG64AABuuAYxdc/gAAAIaSURBVHhe7du/LwRBFAfw50cicYloRFSETnGhU1Lo+Q+oFBoUlERHgUah4k+4TqHgPyBXKCR+VSIakZxEQnhvdpK7nN29nd2Z4SbfT/Iyu1O5fM27l+wtAQAAAACEr0Ovpia45qLL4LxyHUSX7UHC+A68Lrn6ubzr1KuJUE9GI/mnk1Bk9SpPy9ri2lRXp1NqCUb1jWj7hqj2qTdU+5rnulB3HuQ5IeEq9xHtjhMN9ugN1bbOuRbUnQcIpNloL9FhmdeS3lCOufajS7cQSJxSV3RSZgf0hrLCJcE4/bJHIEkklLUxHmGG9IYirUtamLNQEEgrS8NRMHVOJzAEkoW0rh1uYaVuvUEjXHJSptWdRQgkK08TGAIx4WECQyCmHE9gCCQPhxMYAinCwQSGQIqyPIEhEBuSJzDjk4JAbImfwIwfVSCQfwaB2HL3TrRc5bWmN5SKXjNDIDbIg631a6LnD72hHmzNcF2pOwMIpKizF6INDqP+lPGBS8LI9ZQRgRRx9Ei0d6tvFDkRk3rNBYHkUfuKgqg86Q3lhEtOhrSr3BCIKQlDvi+kVdXJ77gWuQqFIRCIifhJSoJYjS6LQyBZJU9S0qqsQSBZWJ6k0iCQVhxMUmkQSBKHk1QaBBLH8SSVBoE08zBJpUEgjTxNUrbJr9/j3qkIre65nPwYzjb5I+M+QEj1Zy/s4JW236RNtdUrbQAAAAAAbYXoB9AcMNJEaKGWAAAAAElFTkSuQmCC');
+  background-size: 30px 15px;
+  cursor: cursor;
+}
+
+.progressBar.remain .v-slider-thumb__surface {
+  width: 0px;
+  height: 0px;
+}
+
+.progressBar.remain .v-slider-thumb__ripple {
+  cursor: auto !important;
+}
+
+.progressBar.remain {
+  cursor: auto;
+}
+
+.lcc-default-font {
+  font-size: 1.6rem;
+}
+
+.lcc-sub-font {
+  font-size: 1.4rem;
+  line-height: 0.8rem;
+}
+
+/*
+* 필수 입력항목
+*/
+.required-mark {
+  color: #ff0303;
+  font-size: 1.1rem;
+  vertical-align: middle;
+}

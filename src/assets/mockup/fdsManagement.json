@@ -1,0 +1,105 @@
+
+{
+  "decks" : [
+    { "id": 1, "deckName": "A-DECK", "deckStatus": "normal" },
+    { "id": 2, "deckName": "B-DECK", "deckStatus": "danger" },
+    { "id": 3, "deckName": "C-DECK", "deckStatus": "normal" },
+    { "id": 4, "deckName": "A-DECK", "deckStatus": "normal" },
+    { "id": 5, "deckName": "B-DECK", "deckStatus": "danger" },
+    { "id": 6, "deckName": "C-DECK", "deckStatus": "normal" },
+    { "id": 7, "deckName": "A-DECK", "deckStatus": "normal" },
+    { "id": 8, "deckName": "B-DECK", "deckStatus": "danger" },
+    { "id": 9, "deckName": "C-DECK", "deckStatus": "normal" }
+  ],
+  "data" : [
+    {
+      "id": 1,
+      "deckName": "A-DECK",
+      "location": "A-DECK 상단",
+      "sensorType": "열 감지기",
+      "tagId" : "LC30001",
+      "x": 100,
+      "y": 200    },
+    {
+      "id": 2,
+      "deckName": "A-DECK",
+      "location": "A-DECK 하단",
+      "sensorType": "열 감지기",
+      "tagId": "LC30002",
+      "x": 150,
+      "y": 400
+    },
+    {
+      "id": 3,
+      "deckName": "B-DECK",
+      "location": "B-DECK 상단",
+      "sensorType": "연기 감지기",
+      "tagId": "LC30003",
+      "x": 300,
+      "y": 400
+    },
+    {
+      "id": 4,
+      "deckName": "A-DECK",
+      "location": "A-DECK 상단",
+      "sensorType": "열 감지기",
+      "tagId": "LC30004",
+      "x": 200,
+      "y": 150
+    },
+    {
+      "id": 5,
+      "deckName": "C-DECK",
+      "location": "C-DECK 상단",
+      "sensorType": "열 감지기",
+      "tagId": "LC30005",
+      "x": 250,
+      "y": 200
+    },
+    {
+      "id": 6,
+      "deckName": "A-DECK",
+      "location": "A-DECK 상단",
+      "sensorType": "열 감지기",
+      "tagId": "LC30006",
+      "x": 150,
+      "y": 200
+    },
+    {
+      "id": 7,
+      "deckName": "B-DECK",
+      "location": "B-DECK 상단",
+      "sensorType": "연기 감지기",
+      "tagId": "LC30007",
+      "x": 100,
+      "y": 180
+    },
+    {
+      "id": 8,
+      "deckName": "B-DECK",
+      "location": "B-DECK 상단",
+      "sensorType": "열 감지기",
+      "tagId": "LC30008",
+      "x": 300,
+      "y": 150
+    },
+    {
+      "id": 9,
+      "deckName": "A-DECK",
+      "location": "A-DECK 상단",
+      "sensorType": "열 감지기",
+      "tagId": "LC30009",
+      "x": 200,
+      "y": 200
+    },
+    {
+      "id": 10,
+      "deckName": "A-DECK",
+      "location": "A-DECK 상단",
+      "sensorType": "열 감지기",
+      "tagId": "LC30010",
+      "x": 150,
+      "y": 200
+    }
+  ]
+}

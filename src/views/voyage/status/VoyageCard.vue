@@ -1,0 +1,43 @@
+<template>
+  <v-container>
+    <v-row>
+      <v-col>
+        <v-card>
+          <v-card-title>타이틀</v-card-title>
+          <v-img
+            src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
+            height="200"
+            cover
+          ></v-img>
+          <v-card-text>ttt</v-card-text>
+        </v-card>
+      </v-col>
+      <v-col>
+        <v-card>
+          <v-card-title>타이틀</v-card-title>
+          <v-img
+            src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
+            height="200"
+            cover
+          ></v-img>
+          <v-card-text>ttt</v-card-text>
+        </v-card>
+      </v-col>
+      <v-col>
+        <v-card>
+          <v-card-title>타이틀</v-card-title>
+          <v-img
+            src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
+            height="200"
+            cover
+          ></v-img>
+          <v-card-text>ttt</v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
+  </v-container>
+</template>
+
+<script setup></script>
+
+<style></style>

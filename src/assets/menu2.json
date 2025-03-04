@@ -1,0 +1,242 @@
+[
+  {
+    "menuId": 1,
+    "menuName": "대시보드",
+    "childrens": [
+      {
+        "menuId": 2,
+        "menuName": "대시보드",
+        "parentId": 1
+      }
+    ]
+  },
+  {
+    "menuId": 3,
+    "menuName": "운항정보",
+    "childrens": [
+      {
+        "menuId": 4,
+        "menuName": "월드맵 정보",
+        "parentId": 3
+      },
+      {
+        "menuId": 5,
+        "menuName": "선단 정보",
+        "parentId": 3
+      },
+      {
+        "menuId": 6,
+        "menuName": "선단정보",
+        "parentId": 3
+      },
+      {
+        "menuId": 7,
+        "menuName": "선체 정보",
+        "parentId": 3
+      },
+      {
+        "menuId": 8,
+        "menuName": "항차 관리",
+        "parentId": 3
+      },
+      {
+        "menuId": 9,
+        "menuName": "IMO DCS",
+        "parentId": 3
+      },
+      {
+        "menuId": 10,
+        "menuName": "EU MRV / UK MRV",
+        "parentId": 3
+      },
+      {
+        "menuId": 11,
+        "menuName": "Noon",
+        "parentId": 3
+      },
+      {
+        "menuId": 12,
+        "menuName": "운항정보 알람",
+        "parentId": 3
+      }
+    ]
+  },
+  {
+    "menuId": 13,
+    "menuName": "기관정보",
+    "childrens": [
+      {
+        "menuId": 14,
+        "menuName": "메인엔진",
+        "parentId": 13
+      },
+      {
+        "menuId": 15,
+        "menuName": "발전기",
+        "parentId": 13
+      },
+      {
+        "menuId": 16,
+        "menuName": "추진시스템",
+        "parentId": 13
+      },
+      {
+        "menuId": 17,
+        "menuName": "탱크",
+        "parentId": 13
+      },
+      {
+        "menuId": 18,
+        "menuName": "전력",
+        "parentId": 13
+      },
+      {
+        "menuId": 19,
+        "menuName": "화재감지",
+        "parentId": 13
+      },
+      {
+        "menuId": 20,
+        "menuName": "분석정보",
+        "parentId": 13
+      },
+      {
+        "menuId": 21,
+        "menuName": "기관정보 알람",
+        "parentId": 13
+      }
+    ]
+  },
+
+  {
+    "menuId": 22,
+    "menuName": "환경규제 정보",
+    "childrens": [
+      {
+        "menuId": 23,
+        "menuName": "CII 모니터링",
+        "parentId": 22
+      },
+      {
+        "menuId": 24,
+        "menuName": "CII 연간 레포트",
+        "parentId": 22
+      },
+      {
+        "menuId": 25,
+        "menuName": "CII 시뮬레이션",
+        "parentId": 22
+      },
+      {
+        "menuId": 26,
+        "menuName": "CII 선박간 비교",
+        "parentId": 22
+      },
+      {
+        "menuId": 27,
+        "menuName": "COST",
+        "parentId": 22
+      },
+      {
+        "menuId": 28,
+        "menuName": "환경규제 알람",
+        "parentId": 22
+      }
+    ]
+  },
+  {
+    "menuId": 29,
+    "menuName": "알람 정보",
+    "childrens": [
+      {
+        "menuId": 30,
+        "menuName": "알람 히스토리",
+        "parentId": 29
+      },
+      {
+        "menuId": 31,
+        "menuName": "사용자 지정 알람",
+        "parentId": 29
+      },
+      {
+        "menuId": 32,
+        "menuName": "분석 알람",
+        "parentId": 29
+      },
+      {
+        "menuId": 33,
+        "menuName": "알람 통계",
+        "parentId": 29
+      }
+    ]
+  },
+
+  {
+    "menuId": 34,
+    "menuName": "INS정보",
+    "childrens": [
+      {
+        "menuId": 35,
+        "menuName": "CCTV",
+        "parentId": 34
+      },
+      {
+        "menuId": 36,
+        "menuName": "RADER",
+        "parentId": 34
+      },
+      {
+        "menuId": 37,
+        "menuName": "ECDIS",
+        "parentId": 34
+      }
+    ]
+  },
+
+  {
+    "menuId": 38,
+    "menuName": "설정",
+    "childrens": [
+      {
+        "menuId": 39,
+        "menuName": "계정 관리",
+        "parentId": 38
+      },
+      {
+        "menuId": 40,
+        "menuName": "사용자 그룹 관리",
+        "parentId": 38
+      },
+      {
+        "menuId": 41,
+        "menuName": "그룹별 메뉴 관리",
+        "parentId": 38
+      },
+      {
+        "menuId": 42,
+        "menuName": "사용자 접속 기록",
+        "parentId": 38
+      },
+      {
+        "menuId": 43,
+        "menuName": "선사 정보 관리",
+        "parentId": 38
+      },
+      {
+        "menuId": 43,
+        "menuName": "선박 태그 정보 관리",
+        "parentId": 38
+      },
+      {
+        "menuId": 44,
+        "menuName": "선박 운용 정보 관리",
+        "parentId": 38
+      },
+      {
+        "menuId": 45,
+        "menuName": "공지사항",
+        "parentId": 38
+      }
+    ]
+  }
+]

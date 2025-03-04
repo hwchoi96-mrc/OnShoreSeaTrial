@@ -1,0 +1,89 @@
+{
+  "decks": [
+    { "id": 1, "deckName": "A-DECK", "deckStatus": "normal" },
+    { "id": 2, "deckName": "B-DECK", "deckStatus": "danger" },
+    { "id": 3, "deckName": "C-DECK", "deckStatus": "normal" }
+  ],
+  "data": [
+    {
+      "id": 1,
+      "deckName": "A-DECK",
+      "location": "A-DECK 상단",
+      "sensorType": "열 감지기",
+      "status": "normal",
+      "description": ""
+    },
+    {
+      "id": 2,
+      "deckName": "A-DECK",
+      "location": "A-DECK 하단",
+      "sensorType": "열 감지기",
+      "status": "normal",
+      "description": ""
+    },
+    {
+      "id": 3,
+      "deckName": "B-DECK",
+      "location": "B-DECK 상단",
+      "sensorType": "연기 감지기",
+      "status": "warning",
+      "description": ""
+    },
+    {
+      "id": 4,
+      "deckName": "A-DECK",
+      "location": "A-DECK 상단",
+      "sensorType": "열 감지기",
+      "status": "danger",
+      "description": ""
+    },
+    {
+      "id": 5,
+      "deckName": "C-DECK",
+      "location": "C-DECK 상단",
+      "sensorType": "열 감지기",
+      "status": "normal",
+      "description": ""
+    },
+    {
+      "id": 6,
+      "deckName": "A-DECK",
+      "location": "A-DECK 상단",
+      "sensorType": "열 감지기",
+      "status": "normal",
+      "description": ""
+    },
+    {
+      "id": 7,
+      "deckName": "B-DECK",
+      "location": "B-DECK 상단",
+      "sensorType": "연기 감지기",
+      "status": "danger",
+      "description": ""
+    },
+    {
+      "id": 8,
+      "deckName": "B-DECK",
+      "location": "B-DECK 상단",
+      "sensorType": "열 감지기",
+      "status": "warning",
+      "description": ""
+    },
+    {
+      "id": 9,
+      "deckName": "A-DECK",
+      "location": "A-DECK 상단",
+      "sensorType": "열 감지기",
+      "status": "normal",
+      "description": ""
+    },
+    {
+      "id": 10,
+      "deckName": "A-DECK",
+      "location": "A-DECK 상단",
+      "sensorType": "열 감지기",
+      "status": "normal",
+      "description": ""
+    }
+  ]
+}

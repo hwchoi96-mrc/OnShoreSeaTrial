@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "description": "M/E1 Power",
+    "equipmentNo": "ME1",
+    "tagId": "LC01002",
+    "dataType": "Value",
+    "wariningOnOff": "-",
+    "use": true,
+    "cautionLow": "-",
+    "warningLow": "-",
+    "cautionHigh": 20,
+    "wariningHigh": 1600
+  },
+  {
+    "id": 2,
+    "description": "M/E1 L.O Inlet Press",
+    "equipmentNo": "ME1",
+    "tagId": "LC01007",
+    "dataType": "Value",
+    "wariningOnOff": "-",
+    "use": false,
+    "cautionLow": 15,
+    "warningLow": 3,
+    "cautionHigh": "-",
+    "wariningHigh": "-"
+  },
+  {
+    "id": 3,
+    "description": "G/E2 Scav.Air Press",
+    "equipmentNo": "GE1",
+    "tagId": "LC06005",
+    "dataType": "Value",
+    "use": true,
+    "wariningOnOff": "-",
+    "cautionLow": 20,
+    "warningLow": 3,
+    "cautionHigh": "-",
+    "wariningHigh": "-"
+  },
+  {
+    "id": 4,
+    "description": "G/E2 F.O Inlet Temp",
+    "equipmentNo": "GE2",
+    "tagId": "LC06023",
+    "dataType" : "Boolean",
+    "use": true,
+    "wariningOnOff" : "True",
+    "cautionLow": "-",
+    "warningLow": "-",
+    "cautionHigh": "-",
+    "wariningHigh": "-"
+  },
+  {
+    "id": 5,
+    "description": "M/E2 Load",
+    "equipmentNo": "ME2",
+    "tagId": "LC02003",
+    "dataType": "Value",
+    "use": false,
+    "wariningOnOff": "-",
+    "cautionLow": "-",
+    "warningLow": "-",
+    "cautionHigh": 50,
+    "wariningHigh": 90
+  }
+]

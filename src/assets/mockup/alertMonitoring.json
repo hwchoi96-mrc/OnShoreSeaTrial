@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "description": "M/E1 Ruuning Hours",
+    "equipmentNo": "ME1",
+    "tagId": "LC01001",
+    "caution": 50,
+    "warning": 40,
+    "value": 33,
+    "alarmStateType": "Low Low",
+    "ralsedTime": "24/07/01 14:12:55"
+  },
+  {
+    "id": 2,
+    "description": "M/E1 Power",
+    "equipmentNo": "ME1",
+    "tagId": "LC01002",
+    "caution": 30,
+    "warning": 20,
+    "value": 15,
+    "alarmStateType": "High",
+    "ralsedTime": "24/07/01 14:05:45"
+  },
+  {
+    "id": 3,
+    "description": "M/E2 T/C1 Speed",
+    "equipmentNo": "ME2",
+    "tagId": "LC02008",
+    "caution": 40,
+    "warning": 50,
+    "value": 52,
+    "alarmStateType": "Low Low",
+    "ralsedTime": "24/07/01 11:12:55"
+  },
+  {
+    "id": 4,
+    "description": "M/E1 Speed",
+    "equipmentNo": "ME1",
+    "tagId": "LC01004",
+    "caution": 50,
+    "warning": 40,
+    "value": 33,
+    "alarmStateType": "Low",
+    "ralsedTime": "24/06/28 9:12:55"
+  },
+  {
+    "id": 5,
+    "description": "G/E1 Speed",
+    "equipmentNo": "GE1",
+    "tagId": "LC05004",
+    "caution": 50,
+    "warning": 40,
+    "value": 33,
+    "alarmStateType": "High High",
+    "ralsedTime": "24/07/01 14:12:55"
+  },
+  {
+    "id": 6,
+    "description": "M/E1 Scav. Air Temp",
+    "equipmentNo": "ME1",
+    "tagId": "LC01006",
+    "caution": 50,
+    "warning": 40,
+    "value": 33,
+    "alarmStateType": "High",
+    "ralsedTime": "24/07/01 14:12:55"
+  },
+  {
+    "id": 7,
+    "description": "M/E1 L.O Inlet Press",
+    "equipmentNo": "ME1",
+    "tagId": "LC01007",
+    "caution": 50,
+    "warning": 40,
+    "value": 33,
+    "alarmStateType": "Low",
+    "ralsedTime": "24/07/01 14:12:55"
+  },
+  {
+    "id": 8,
+    "description": "M/E1 T/C1 Speed",
+    "equipmentNo": "ME1",
+    "tagId": "LC01008",
+    "caution": 50,
+    "warning": 40,
+    "value": 33,
+    "alarmStateType": "Low Low",
+    "ralsedTime": "24/07/01 14:12:55"
+  },
+  {
+    "id": 9,
+    "description": "M/E1 T/C1 Exh.gas Inlet Temp",
+    "equipmentNo": "ME1",
+    "tagId": "LC01009",
+    "caution": 50,
+    "warning": 40,
+    "value": 33,
+    "alarmStateType": "High",
+    "ralsedTime": "24/07/01 14:12:55"
+  },
+  {
+    "id": 10,
+    "description": "M/E1 T/C1 Exh.gas Inlet Temp",
+    "equipmentNo": "ME1",
+    "tagId": "LC01010",
+    "caution": 50,
+    "warning": 40,
+    "value": 33,
+    "alarmStateType": "High High",
+    "ralsedTime": "24/07/01 14:12:55"
+  }
+]

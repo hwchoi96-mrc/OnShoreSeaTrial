@@ -1,0 +1,26 @@
+@use "overrides";
+@use "custom";
+@use "layout"
+
+/*
+& 예시 : 부모 엘리먼트를 참조할 수 있는 문법, 부모 엘리먼트와 결합
+a{
+  &:hover{
+    ..
+  }
+}
+결과 : a:hover 
+
+.foo{
+  &-bar{
+    color : red;
+  }
+}
+결과 : .foo-bar
+
+
+
+반복문 사용
+@for $i from 시작 인덱스 through 끝번호{
+}
+*/

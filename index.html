@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" href="/uipaLogo.ico" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>시운전 관제 솔루션</title>
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://api.windy.com/assets/map-forecast/libBoot.js"></script>
+    <script>
+      let map
+      let baseUrl
+      let geoserverWmsUrl
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="modal"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

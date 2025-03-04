@@ -1,0 +1,152 @@
+[
+  {
+    "id": 5,
+    "voyage": 5,
+    "departure": {
+      "portName": "Busan",
+      "time": "2023-12-23 18:40:00",
+      "nationImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/255px-Flag_of_South_Korea.svg.png",
+      "startPortCountry" : "KOR"
+    },
+    "arrival": {
+      "portName": "Ulsan",
+      "time": "2023-12-23 07:48:00",
+      "nationImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/255px-Flag_of_South_Korea.svg.png",
+      "endPortCountry" : "KOR"
+    },
+    "underway": 7,
+    "distance": 132,
+    "avgSpeed": 11,
+    "mdo/mgo": 137,
+    "lfo" : null,
+    "hfo": 642.3,
+    "lpgP": null,
+    "lpgB": null,
+    "mto" : null,
+    "totalco2": 2439.34,
+    "requiredCll": 7.68,
+    "attainedCll": 6.67,
+    "cllRating": 86,
+    "cllGrade": "B"
+  },
+  {
+    "id": 4,
+    "voyage": 4,
+    "departure": {
+      "portName": "Ulsan",
+      "time": "2023-12-23 18:40:00",
+      "nationImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/255px-Flag_of_South_Korea.svg.png",
+      "startPortCountry": "KOR"
+    },
+    "arrival": {
+      "portName": "Busan",
+      "time": "2023-12-23 07:48:00",
+      "nationImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/255px-Flag_of_South_Korea.svg.png",
+      "endPortCountry": "KOR"
+    },
+    "underway": 6,
+    "distance": 136,
+    "avgSpeed": 14,
+    "mdo/mgo": 144,
+    "lfo" : 334,
+    "hfo": 642.3,
+    "lpgP": null,
+    "lpgB": 111,
+    "mto" : null,
+    "totalco2": 2539.34,
+    "requiredCll": 7.68,
+    "attainedCll": 6.67,
+    "cllRating": 86,
+    "cllGrade": "B"
+  },
+  {
+    "id": 3,
+    "voyage": 3,
+    "departure": {
+      "portName": "Ulsan",
+      "time": "2023-12-23 18:40:00",
+      "nationImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/255px-Flag_of_South_Korea.svg.png",
+      "startPortCountry": "KOR"
+    },
+    "arrival": {
+      "portName": "Pohang",
+      "time": "2023-12-23 07:48:00",
+      "nationImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/255px-Flag_of_South_Korea.svg.png",
+      "endPortCountry": "KOR"
+    },
+    "underway": 7,
+    "distance": 132,
+    "avgSpeed": 11,
+    "mdo/mgo": 137,
+    "lfo" : null,
+    "hfo": 642.3,
+    "lpgP": null,
+    "lpgB": null,
+    "mto" : null,
+    "totalco2": 2439.34,
+    "requiredCll": 7.68,
+    "attainedCll": 6.67,
+    "cllRating": 86,
+    "cllGrade": "B"
+  },
+  {
+    "id": 2,
+    "voyage": 2,
+    "departure": {
+      "portName": "Pohang",
+      "time": "2023-12-23 18:40:00",
+      "nationImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/255px-Flag_of_South_Korea.svg.png",
+      "startPortCountry": "KOR"
+    },
+    "arrival": {
+      "portName": "Busan",
+      "time": "2023-12-23 07:48:00",
+      "nationImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/255px-Flag_of_South_Korea.svg.png",
+      "endPortCountry": "KOR"
+    },
+    "underway": 7,
+    "distance": 132,
+    "avgSpeed": 11,
+    "mdo/mgo": 137,
+    "lfo" : null,
+    "hfo": 642.3,
+    "lpgP": null,
+    "lpgB": null,
+    "mto" : null,
+    "totalco2": 2439.34,
+    "requiredCll": 7.68,
+    "attainedCll": 6.67,
+    "cllRating": 86,
+    "cllGrade": "B"
+  },
+  {
+    "id": 1,
+    "voyage": 1,
+    "departure": {
+      "portName": "Busan",
+      "time": "2023-12-23 18:40:00",
+      "nationImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/255px-Flag_of_South_Korea.svg.png",
+      "startPortCountry": "KOR"
+    },
+    "arrival": {
+      "portName": "Ulsan",
+      "time": "2023-12-23 07:48:00",
+      "nationImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/255px-Flag_of_South_Korea.svg.png",
+      "endPortCountry": "KOR"
+    },
+    "underway": 7,
+    "distance": 132,
+    "avgSpeed": 11,
+    "mdo/mgo": 137,
+    "lfo" : null,
+    "hfo": 642.3,
+    "lpgP": null,
+    "lpgB": null,
+    "mto" : null,
+    "totalco2": 2439.34,
+    "requiredCll": 7.68,
+    "attainedCll": 6.67,
+    "cllRating": 86,
+    "cllGrade": "B"
+  }
+]
